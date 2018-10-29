@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.CadastroActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Razão Social"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etRazaoSocial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:paddingBottom="0dp"
+                android:padding="7dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etRazaoSocial"
+                android:text="Nome Fantasia"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etNomeFantasia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:paddingBottom="0dp"
+                android:padding="7dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etNomeFantasia"
+                android:text="CNPJ"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etCnpj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="7dp"
+                android:paddingBottom="0dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etCnpj"
+                android:text="Representante Legal"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etRepresentanteLegal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView4"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:paddingBottom="0dp"
+                android:padding="7dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etRepresentanteLegal"
+                android:text="Telefone"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etTelefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="7dp"
+                android:paddingBottom="0dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etTelefone"
+                android:text="Endereço"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etEndereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView6"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:paddingBottom="0dp"
+                android:padding="7dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="0dp"
+                android:text="Município"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etMunicipio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="7dp"
+                android:paddingBottom="0dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etEndereco"
+                android:text="Bairro"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etBairro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView7"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="7dp"
+                android:paddingBottom="2dp" />
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UF"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etUf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="7dp"
+                android:paddingBottom="0dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CEP"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etCep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:paddingBottom="0dp"
+                android:padding="7dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:paddingBottom="0dp"
+                android:padding="7dp"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Senha"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:paddingBottom="0dp"
+                android:padding="7dp"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirmar Senha"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etConfirmarSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:padding="7dp"
+                android:paddingBottom="0dp" />
+
+            <Button
+                android:id="@+id/btCadastrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CADASTRAR" />
+
+            <Button
+                android:id="@+id/btLimpar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LIMPAR" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
